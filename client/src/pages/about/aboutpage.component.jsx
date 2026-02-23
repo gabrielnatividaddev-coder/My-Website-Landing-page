@@ -55,21 +55,22 @@ const AboutPage = () => (
                 </div>
                 </div>
             <p style={HomeBodyMessageCSS}>
-            Hi! Im Gabriel M. Nativdad, I have a degree in Computer Science, while studying 
-            I also work for a consulting company that specializes in sales and operation tools in the construction industry 
-            then I moved on to explore the banking industry creating backend and frontend web programs.
-            I am very effective in all aspects of Software development because of my background in Computer Science,
-            and working experience in four different industries. My most current work experience was in Samsung please see in my work experience section on this page
+            Hi! Im Gabriel M. Nativdad, I am a Graduate of Computer Science I have a degree and my working experience are Web Development.
+            The Technologies I used for my work for over my 5 years of Web Development experience are Javascript, 
+            React JS, React-Boilerplate, React-Redux, Node.js, Node-Loopback,
+            Express.js, HTML, CSS, JavaScript, Jira, Gitlab, SonarQube, DevOps, Material-UI,
+            Semantic-UI, Mantine UI, SQL, Oracle DB, Mongo DB, WebServices, Agile Work Flow. 
+            My most current work experience was in Samsung please see in my work experience section on this page
             </p>
             <h3 className='workexperienceheaders'>Accomplishments: </h3>
             <p style={AccomplishmentsCSS}>
             •&nbsp; <span style={{color: 'red'}}>Samsung Web Developer (2023-2024)</span>.<br/>
+            •&nbsp; <span style={{color: 'red'}}>Software Project Manager (Sept 2021 - March 2022) </span><br/>
             •&nbsp; <span style={{color: 'darkblue'}}>“TestDome” certified(Top 10%) for JavaScript, React, Node, PHP, ASP.NET core (MVC), Angular, TypeScript, SQL, C#, HTML, CSS.<br/></span>
             •&nbsp; <span style={{color: 'gold'}}>Linkedin JavaScript skill-based assessment certified (Top 5%).</span><br/>
             •&nbsp; Overall lead of 2 company projects(1. Backend API 2. Frontend Web), also involved in analysis and coding of other company projects (backend and frontend).(Sept 2020 - June 2021)<br/>
             •&nbsp; Assigned 3 positions in the span of 8 months. (Sept 2020 - May 2021)<br/>
             •&nbsp; One of the leaders with the most number of deployed defect fixes - Development Team Progress Board. (Sept 2020 - June 2021)<br/>
-            •&nbsp; Software Project Manager(Sept 2021 - March 2022)<br/>
             •&nbsp; Consulting company in the construction industry - Researcher, Blueprint Maker, Plan Loader, Matrix Tracker, Data Model Logic. (June 2017, July 2020)<br/>
             •&nbsp; BS in Computer Science (2014-2018)<br/>
             </p>

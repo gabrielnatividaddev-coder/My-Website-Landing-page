@@ -55,7 +55,7 @@ const AboutPage = () => (
                 </div>
                 </div>
             <p style={HomeBodyMessageCSS}>
-            Hi! Im Gabriel M. Nativdad, I am a Graduate of Computer Science I have a degree and my working experience are Web Development.
+            Hi! Im Gabriel M. Nativdad, I am a Graduate of Computer Science I have a degree and my working experience is Web Development.
             The Technologies I used for my work for over my 5 years of Web Development experience are Javascript, 
             React JS, React-Boilerplate, React-Redux, Node.js, Node-Loopback,
             Express.js, HTML, CSS, JavaScript, Jira, Gitlab, SonarQube, DevOps, Material-UI,

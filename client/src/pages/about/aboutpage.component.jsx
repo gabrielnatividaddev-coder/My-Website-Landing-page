@@ -140,8 +140,8 @@ const AboutPage = () => (
             <br/>• Help teammates understand and build software tools.
             <br/>• Architected an entire project functionality.
             <br/><br/>Technologies used: React JS, React-Boilerplate, React-Redux, Node.js, Node-Loopback,
-             <br/>Express.js, HTML, CSS, JavaScript, Jira, Gitlab, SonarQube, DevOps, Material-UI, SQL
-             <br/>, Oracle DB, Mongo DB, WebServices, Agile Work Flow.
+             <br/>Express.js, HTML, CSS, JavaScript, Jira, Gitlab, SonarQube, DevOps, Material-UI, SQL,
+             <br/>Oracle DB, Mongo DB, WebServices, Agile Work Flow.
             </p>
             </div>
             <div className='workexperience fix'>

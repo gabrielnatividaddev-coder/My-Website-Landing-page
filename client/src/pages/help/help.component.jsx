@@ -42,7 +42,7 @@ const HelpPage = () => (<>
                <a style={astyles} href={"https://react-sidebar2-d796912b03f7.herokuapp.com/"}> https://react-sidebar2-d796912b03f7.herokuapp.com/</a> <br/>
                <a style={astyles} href={"https://react-website-header-a782a166ef6d.herokuapp.com/"}> https://react-website-header-a782a166ef6d.herokuapp.com/ </a> <br/>
                <a style={astyles} href={"https://react-website-header2-7aa1cc753cbd.herokuapp.com/"}> https://react-website-header2-7aa1cc753cbd.herokuapp.com/ </a> <br/>
-                 <a style={astyles} href={'https://newsapi.org/'} >https://newsapi.org/</a><br/>
+               <a style={astyles} href={'https://newsapi.org/'} >https://newsapi.org/</a><br/>
                <a style={astyles} href={"https://tabler.io/icons"}> https://tabler.io/icons </a> <br/>
                <a style={astyles} href={"https://styled-components.com/"}> https://styled-components.com/ </a> <br/>
                <a style={astyles} href={"https://semantic-ui.com//"}> https://semantic-ui.com// </a> <br/>

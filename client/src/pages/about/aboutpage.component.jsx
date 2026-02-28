@@ -78,10 +78,9 @@ const AboutPage = () => (
             <div className='workexperience'>
             <img src={Samsung} width={'48px'} height="48px" ></img>
             <p className='workexperiencedetails'>
-                Web Developer Samsung Electronics · Full-time
+                Web Developer 
+                <br/>Samsung Electronics · Full-time
                 <br/>Jun 2023 - May 2024 · 1 yr
-                <br/>Samsung Electronics· Full-time
-                <br/>2023 - 2024 · 1 yr
                 <br/>Bonifacio Global City, Philippines · On-site
                 <br/>Responsibilities:
                 <br/>• Developing and maintaining web applications using technologies such as React JS, React-Boilerplate, React-Redux, Node.js, Node-Loopback, and Express.js.
@@ -103,7 +102,7 @@ const AboutPage = () => (
             <br/>Hypereon Labs · Full-time
             <br/>Sep 2021 - Mar 2022 · 7 mos
             <br/>Remote
-            <br/>Software Project Manager/ Web Developer Software Project Manager/ Web Developer
+            <br/>Software Project Manager/ Web Developer
             <br/>Project Management:
             <br/>• Collaborate with cross-functional teams to define project scope, objectives, and deliverables.
             <br/>• Develop project plans, allocate resources, and track progress.
@@ -150,7 +149,7 @@ const AboutPage = () => (
             <p className='workexperiencedetails'>
             Web Developer
             <br/>Programmer
-            <br/>ProUP · Part-time
+            <br/>ProUP · Full time
             <br/>Jun 2017 - Jul 2020 · 3 yrs 2 mos
             <br/>United States
             <br/>Consulting company in the construction industry -  Researcher, Blueprint Maker, Plan Loader, Matrix Tracker, Data Model Logic., 

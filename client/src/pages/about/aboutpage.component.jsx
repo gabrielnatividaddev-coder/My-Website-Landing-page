@@ -240,7 +240,7 @@ const AboutPage = () => (
             </p>
             </div>
 
-            <h3 className='workexperienceheaders'>LinkedIn JavaScript Certificatoin: </h3>
+            <h3 className='workexperienceheaders'>LinkedIn JavaScript Certification: </h3>
             <img src={linkedinbadge} width={'266.88px'} height="362.88px" ></img>
             </div>
         </div>

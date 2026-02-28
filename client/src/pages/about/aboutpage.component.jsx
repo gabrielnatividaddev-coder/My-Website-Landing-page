@@ -152,7 +152,13 @@ const AboutPage = () => (
             <br/>ProUP · Full time
             <br/>Jun 2017 - Jul 2020 · 3 yrs 2 mos
             <br/>United States
-            <br/>Consulting company in the construction industry -  Researcher, Blueprint Maker, Plan Loader, Matrix Tracker, Data Model Logic., 
+            <br/>Responsibilities
+            <br/>• Consulting company in the construction industry -  Researcher, Blueprint Maker, Plan Loader, Matrix Tracker, Data Model Logic., 
+            <br/>• Lead the creation of Frontend applications
+            <br/>• Did research about technologies such as React Canvas and Javascript Canvas
+            <br/>• Help teammates understand and build software tools.
+            <br/>• Architected an entire project functionality.
+            <br/>• Utilize technologies such as React JS, React-Boilerplate, React-Redux, Node.js, Node-Loopback, Express.js, HTML, CSS, and JavaScript.
             <br/><br/>Technologies used: (React.js, Node.js, Angular.js, JavaScript, TypeScript, ASP.Net core (MVC), HTML, 
             <br/>CSS, Vanilla.js, SQL, SQL Server, Web Server, JQUERY, AJAX, SOAP, REST, Agile Work Flow)
             </p>

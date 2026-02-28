@@ -17,6 +17,10 @@
 .workexperiencedetails{
     margin-block-start: 0;
     margin-block-end: 0;
+    text-wrap: wrap;
+}
+.samp {
+    text-wrap: wrap;
 }
 .workexperienceheaders{
     font-family: 'Verdana, sans-serif'; 
@@ -33,8 +37,8 @@
 @media only screen and (max-width: 717px) {
     .MainDivCSS {
     padding-top: 1px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
     background: #dee2e6;
 }
   }

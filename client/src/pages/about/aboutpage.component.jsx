@@ -163,7 +163,7 @@ const AboutPage = () => (
             <img src={testdome} width={'48px'} height="48px" ></img>
             <p className='workexperiencedetails'>
              React – TestDome (Top 10%)
-             <br/>View online: <a target='_blank' href='https://app.testdome.com/cert/030137d1f1444b6198fd9d31a723bcb0'>https://app.testdome.com/cert/030137d1f1444b6198fd9d31a723bcb0</a>
+             <br/>View online: <a class = "samp" target='_blank' href='https://app.testdome.com/cert/030137d1f1444b6198fd9d31a723bcb0'>https://app.testdome.com/cert/030137d1f1444b6198fd9d31a723bcb0</a>
             </p>
             </div>
 

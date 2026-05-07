@@ -55,7 +55,7 @@
     
 }
 
-.adsitems {
+.adsitems:link, .adsitems:visited {
     animation: moveInBottom 2s ease-out .1s;
     animation-fill-mode: backwards;
     text-transform: uppercase;

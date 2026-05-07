@@ -251,7 +251,7 @@ const AboutPage = () => (
             </div>
             </div>
             <div style={{textAlign: 'center'}}>
-            <h3 className='workexperienceheaders'>LinkedIn JavaScript Certification: </h3>
+            <h3 className='workexperienceheaders'>LinkedIn JavaScript Certification </h3>
             </div>
             <div style={{textAlign: 'center'}}>
             <img src={linkedinbadge} width={'266.88px'} height="362.88px" ></img>

@@ -142,8 +142,8 @@ const AboutPage = () => (
             <div style={{textAlign: 'center'}}>
             <h3 className='workexperienceheaders'>Awards </h3>
             </div>
-            <div style={{display: 'flex', flexWrap: 'wrap', gap: '10px', justifyContent: 'center'}}>
-            <div className='workexperience fix'>
+            <div className='fixwrap' >
+            <div className='awards workexperience fix'>
             
             <p className='workexperiencedetails' style={{display: 'flex', gap: '10px'}}>
                 <img src={testdome} width={'48px'} height="48px" ></img>
@@ -155,7 +155,7 @@ const AboutPage = () => (
             </div>
 
 
-            <div className='workexperience fix'>
+            <div className='awards workexperience fix'>
             
             <p className='workexperiencedetails' style={{display: 'flex', gap: '10px'}}>
                 <img src={testdome} width={'48px'} height="48px" ></img>
@@ -166,7 +166,7 @@ const AboutPage = () => (
             </p>
             </div>
 
-            <div className='workexperience fix'>
+            <div className='awards workexperience fix'>
             
             <p className='workexperiencedetails' style={{display: 'flex', gap: '10px'}}>
                 <img src={testdome} width={'48px'} height="48px" ></img>
@@ -177,7 +177,7 @@ const AboutPage = () => (
             </p>
             </div>
 
-            <div className='workexperience fix'>
+            <div className='awards workexperience fix'>
             
             <p className='workexperiencedetails' style={{display: 'flex', gap: '10px'}}>
                 <img src={testdome} width={'48px'} height="48px" ></img>
@@ -188,7 +188,7 @@ const AboutPage = () => (
             </p>
             </div>
             
-            <div className='workexperience fix'>
+            <div className='awards workexperience fix'>
             
             <p className='workexperiencedetails' style={{display: 'flex', gap: '10px'}}>
                 <img src={testdome} width={'48px'} height="48px" ></img>
@@ -198,7 +198,7 @@ const AboutPage = () => (
             </p>
             </div>
 
-            <div className='workexperience fix'>
+            <div className='awards workexperience fix'>
             
             <p className='workexperiencedetails' style={{display: 'flex', gap: '10px'}}>
                 <img src={testdome} width={'48px'} height="48px" ></img>
@@ -208,7 +208,7 @@ const AboutPage = () => (
             </p>
             </div>
 
-            <div className='workexperience fix'>
+            <div className='awards workexperience fix'>
             
             <p className='workexperiencedetails' style={{display: 'flex', gap: '10px'}}>
                 <img src={testdome} width={'48px'} height="48px" ></img>
@@ -218,7 +218,7 @@ const AboutPage = () => (
             </p>
             </div>
 
-            <div className='workexperience fix'>
+            <div className='awards workexperience fix'>
             
             <p className='workexperiencedetails' style={{display: 'flex', gap: '10px'}}>
                 <img src={testdome} width={'48px'} height="48px" ></img>
@@ -229,7 +229,7 @@ const AboutPage = () => (
             </p>
             </div>
 
-            <div className='workexperience fix'>
+            <div className='awards workexperience fix'>
             
             <p className='workexperiencedetails' style={{display: 'flex', gap: '10px'}}>
                 <img src={testdome} width={'48px'} height="48px" ></img>
@@ -239,7 +239,7 @@ const AboutPage = () => (
             </p>
             </div>
 
-            <div className='workexperience fix'>
+            <div className='awards workexperience fix'>
             
             <p className='workexperiencedetails' style={{display: 'flex', gap: '10px'}}>
                 <img src={testdome} width={'48px'} height="48px" ></img>

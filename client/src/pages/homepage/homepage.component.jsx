@@ -19,7 +19,7 @@ const HomePage = () => (
             <div className='ads'>
                 <a className='adsitems' href ={"https://github.com/gabrielnatividaddev-coder"}>Github<img src={github} className='github'></img></a> 
                 <a className='adsitems' href ={"https://www.facebook.com/profile.php?id=61587686044885"}>Facebook<img src={facebook} className='github'></img></a> 
-                <a className='adsitems' href ={"https://x.com/DevNat88579"}>Twitter<img src={twitter} className='twitter'></img></a> 
+                <a className='adsitems' href ={"https://x.com/DevNat88579"}>Twitter&nbsp; <img src={twitter} className='twitter'></img></a> 
             </div>
     </div>
 );

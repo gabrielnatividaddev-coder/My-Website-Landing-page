@@ -8,53 +8,20 @@ import JMD from '../../assets/javier.png';
 import proup from '../../assets/proup.jpg';
 import testdome from '../../assets/testdome.png';
 import linkedinbadge from '../../assets/linkedinbadge.png';
-const HomeBodyMessageCSS = {
-    color:'black', 
-    padding: '5px',
-    fontSize: '18px',
-    letterSpacing: '.5px',
-    lineHeight: '25px',
-    fontFamily: '"Times New Roman", Times, serif',
-    backgroundColor: 'white',
-    borderRadius: '5px'
-}
-const AccomplishmentsCSS = {
-    fontFamily: '"Times New Roman", Times, serif',
-    backgroundColor: 'white',
-    borderRadius: '5px',
-    lineHeight: '30px',
-    padding: '10px'
-}
 
-const NestedDivCSS = {
-    paddingBottom: '40px',
-    paddingTop: '10px'
-};
-const CaptionStyleCSS = { 
-  fontFamily:'Snell Roundhand, cursive', 
-  fontWeight:'bold', 
-  fontStyle: 'italic', 
-  color: 'red', 
-  textAlign:'center', 
-  backgroundColor:'white'
-};
-const ImageStyleCSS = { 
-  verticalAlign: 'middle', 
-  border: '5px solid #FFFFFF',
-  filter: 'grayscale(25%)'
-};
 const AboutPage = () => (
-    <div className='home' >
+    <div className='homess' >
         <Header showPicture={true}/>
         <div className='MainDivCSS'>
-            <div style={NestedDivCSS}>
+            <div className='nesteddivcss'>
+                <div className='firstsection'>
                 <div className='çenterimage'>
                     <div>
-                    <img width="200" src={JMD} style={ImageStyleCSS}></img>
-                    <figcaption style={CaptionStyleCSS} >Gabriel Natividad</figcaption>
+                    <img width="200" src={JMD} className='imagestylecss'></img>
+                    <figcaption className='captionstylecss'>Gabriel Natividad</figcaption>
                 </div>
                 </div>
-            <p style={HomeBodyMessageCSS}>
+            <p className="homebodymessagecss">
             Hi! Im Gabriel M. Nativdad, I am a Graduate of Computer Science I have a degree and my working experience is Web Development.
             The Technologies I used for my work for over my 5 years of Web Development experience are Javascript, 
             React JS, React-Boilerplate, React-Redux, Node.js, Node-Loopback,
@@ -62,8 +29,11 @@ const AboutPage = () => (
             Semantic-UI, Mantine UI, SQL, Oracle DB, Mongo DB, WebServices, Agile Work Flow. 
             My most current work experience was in Samsung please see in my work experience section on this page
             </p>
-            <h3 className='workexperienceheaders'>Accomplishments: </h3>
-            <p style={AccomplishmentsCSS}>
+            </div>
+            <div style={{textAlign: 'center'}}>
+            <h3 className='workexperienceheaders'>Accomplishments </h3>
+            </div>
+            <p className='accomplishmentscss'>
             •&nbsp; <span style={{color: 'red'}}>Samsung Web Developer (2023-2024)</span>.<br/>
             •&nbsp; <span style={{color: 'red'}}>Software Project Manager (Sept 2021 - March 2022) </span><br/>
             •&nbsp; <span style={{color: 'darkblue'}}>“TestDome” certified(Top 10%) for JavaScript, React, Node, PHP, ASP.NET core (MVC), Angular, TypeScript, SQL, C#, HTML, CSS.<br/></span>
@@ -74,10 +44,13 @@ const AboutPage = () => (
             •&nbsp; Consulting company in the construction industry - Researcher, Blueprint Maker, Plan Loader, Matrix Tracker, Data Model Logic. (June 2017, July 2020)<br/>
             •&nbsp; BS in Computer Science (2014-2018)<br/>
             </p>
-            <h3 className='workexperienceheaders'> Work Experience </h3>
+            <div style={{textAlign: 'center'}}>
+            <h3 className='workexperienceheaders workexperience'> Work Experience </h3>
+            </div>
             <div className='workexperience'>
-            <img src={Samsung} width={'48px'} height="48px" ></img>
-            <p className='workexperiencedetails'>
+            
+            <p className='workexperiencedetails' style={{display: 'flex', gap: '10px'}}>
+                <img src={Samsung} width={'48px'} height="48px" ></img>
                 Web Developer 
                 <br/>Samsung Electronics · Full-time
                 <br/>Jun 2023 - May 2024 · 1 yr
@@ -96,8 +69,9 @@ const AboutPage = () => (
             </p>
             </div>
              <div className='workexperience fix'>
-            <img src={Hypereonlabs} width={'48px'} height="48px" ></img>
-            <p className='workexperiencedetails'>
+            
+            <p className='workexperiencedetails' style={{display: 'flex', gap: '10px'}}>
+                <img src={Hypereonlabs} width={'48px'} height="48px" ></img>
             Web Developer
             <br/>Hypereon Labs · Full-time
             <br/>Sep 2021 - Mar 2022 · 7 mos
@@ -127,8 +101,9 @@ const AboutPage = () => (
             </p>
             </div>
             <div className='workexperience fix'>
-            <img src={collabera} width={'48px'} height="48px" ></img>
-            <p className='workexperiencedetails'>
+            
+            <p className='workexperiencedetails' style={{display: 'flex', gap: '10px'}}>
+                <img src={collabera} width={'48px'} height="48px" ></img>
             Web Developer
             <br/>Collabera Digital · Full-time
             <br/>Sep 2020 - Mar 2021 · 7 mos
@@ -145,8 +120,9 @@ const AboutPage = () => (
             </p>
             </div>
             <div className='workexperience fix'>
-            <img src={proup} width={'48px'} height="48px" ></img>
-            <p className='workexperiencedetails'>
+            
+            <p className='workexperiencedetails' style={{display: 'flex', gap: '10px'}}>
+                <img src={proup} width={'48px'} height="48px" ></img>
             Web Developer
             <br/>Programmer
             <br/>ProUP · Full time
@@ -163,90 +139,123 @@ const AboutPage = () => (
             <br/>CSS, Vanilla.js, SQL, SQL Server, Web Server, JQUERY, AJAX, SOAP, REST, Agile Work Flow)
             </p>
             </div>
-            <h3 className='workexperienceheaders'>Awards: </h3>
+            <div style={{textAlign: 'center'}}>
+            <h3 className='workexperienceheaders'>Awards </h3>
+            </div>
+            <div style={{display: 'flex', flexWrap: 'wrap', gap: '10px', justifyContent: 'center'}}>
             <div className='workexperience fix'>
-            <img src={testdome} width={'48px'} height="48px" ></img>
-            <p className='workexperiencedetails'>
-             React – TestDome (Top 10%)
-             <br/>View online: <a class = "samp" target='_blank' href='https://app.testdome.com/cert/030137d1f1444b6198fd9d31a723bcb0'>cert/030137d1f1444b6198fd9d31a723bcb0</a>
+            
+            <p className='workexperiencedetails' style={{display: 'flex', gap: '10px'}}>
+                <img src={testdome} width={'48px'} height="48px" ></img>
+                <span>
+                React – TestDome (Top 10%)
+                <br/>View online: <a class = "samp" target='_blank' href='https://app.testdome.com/cert/030137d1f1444b6198fd9d31a723bcb0'>cert/030137d1f1444b6198fd9d31a723bcb0</a>
+                </span>
             </p>
             </div>
 
 
             <div className='workexperience fix'>
-            <img src={testdome} width={'48px'} height="48px" ></img>
-            <p className='workexperiencedetails'>
+            
+            <p className='workexperiencedetails' style={{display: 'flex', gap: '10px'}}>
+                <img src={testdome} width={'48px'} height="48px" ></img>
+                <span>
              SQL – TestDome (Top 10%)
              <br/>View online: <a target='_blank' href='https://app.testdome.com/cert/019a45ffe19a4bc9a2289158ef1f6c33'>cert/019a45ffe19a4bc9a2289158ef1f6c33</a>
+            </span>
             </p>
             </div>
 
             <div className='workexperience fix'>
-            <img src={testdome} width={'48px'} height="48px" ></img>
-            <p className='workexperiencedetails'>
+            
+            <p className='workexperiencedetails' style={{display: 'flex', gap: '10px'}}>
+                <img src={testdome} width={'48px'} height="48px" ></img>
+                <span>
              JavaScript  – TestDome (Top 10%)
              <br/>View online: <a target='_blank' href='https://app.testdome.com/cert/7c5bdf9e00b7485d89237af29ff43e28'>cert/7c5bdf9e00b7485d89237af29ff43e28</a>
+            </span>
             </p>
             </div>
 
             <div className='workexperience fix'>
-            <img src={testdome} width={'48px'} height="48px" ></img>
-            <p className='workexperiencedetails'>
+            
+            <p className='workexperiencedetails' style={{display: 'flex', gap: '10px'}}>
+                <img src={testdome} width={'48px'} height="48px" ></img>
+                <span>
              HTML/CSS and JavaScript  – TestDome (Top 10%)
              <br/>View online: <a target='_blank' href='https://app.testdome.com/cert/517d9140d677484fbabc23c657592120'>cert/517d9140d677484fbabc23c657592120</a>
+            </span>
             </p>
             </div>
             
             <div className='workexperience fix'>
-            <img src={testdome} width={'48px'} height="48px" ></img>
-            <p className='workexperiencedetails'>
-             HTML/CSS, React, and Node.js  – TestDome (Top 10%)
+            
+            <p className='workexperiencedetails' style={{display: 'flex', gap: '10px'}}>
+                <img src={testdome} width={'48px'} height="48px" ></img>
+            <span> HTML/CSS, React, and Node.js  – TestDome (Top 10%)
              <br/>View online: <a target='_blank' href='https://app.testdome.com/cert/06c651e124ad41eeaf06fe50d65e7e47'>cert/06c651e124ad41eeaf06fe50d65e7e47</a>
+            </span>
             </p>
             </div>
 
             <div className='workexperience fix'>
-            <img src={testdome} width={'48px'} height="48px" ></img>
-            <p className='workexperiencedetails'>
-             Node.js  – TestDome (Top 10%)
+            
+            <p className='workexperiencedetails' style={{display: 'flex', gap: '10px'}}>
+                <img src={testdome} width={'48px'} height="48px" ></img>
+            <span>  Node.js  – TestDome (Top 10%)
              <br/>View online: <a target='_blank' href='https://app.testdome.com/cert/96efdb0e1b644deb83899504283e97ff'>cert/96efdb0e1b644deb83899504283e97ff</a>
+            </span>
             </p>
             </div>
 
             <div className='workexperience fix'>
-            <img src={testdome} width={'48px'} height="48px" ></img>
-            <p className='workexperiencedetails'>
-             Angular  – TestDome (Top 10%)
+            
+            <p className='workexperiencedetails' style={{display: 'flex', gap: '10px'}}>
+                <img src={testdome} width={'48px'} height="48px" ></img>
+            <span>Angular  – TestDome (Top 10%)
              <br/>View online: <a target='_blank' href='https://app.testdome.com/cert/848e31b7011f4d7ca7f3cac87bb8e4b1'>cert/848e31b7011f4d7ca7f3cac87bb8e4b1</a>
+            </span> 
             </p>
             </div>
 
             <div className='workexperience fix'>
-            <img src={testdome} width={'48px'} height="48px" ></img>
-            <p className='workexperiencedetails'>
+            
+            <p className='workexperiencedetails' style={{display: 'flex', gap: '10px'}}>
+                <img src={testdome} width={'48px'} height="48px" ></img>
+                <span>
              ASP.NET (Core) MVC – TestDome (Top 10%)
              <br/>View online: <a target='_blank' href='https://app.testdome.com/cert/d16f457e191e4e0495bd4594cc72625d'>cert/d16f457e191e4e0495bd4594cc72625d</a>
+            </span>
             </p>
             </div>
 
             <div className='workexperience fix'>
-            <img src={testdome} width={'48px'} height="48px" ></img>
-            <p className='workexperiencedetails'>
-             C# – TestDome (Top 10%)
+            
+            <p className='workexperiencedetails' style={{display: 'flex', gap: '10px'}}>
+                <img src={testdome} width={'48px'} height="48px" ></img>
+             <span>C# – TestDome (Top 10%)
              <br/>View online: <a target='_blank' href='https://app.testdome.com/cert/a31d3d35a41a4c04beb344d74eaf3845'>cert/a31d3d35a41a4c04beb344d74eaf3845</a>
+            </span>
             </p>
             </div>
 
             <div className='workexperience fix'>
-            <img src={testdome} width={'48px'} height="48px" ></img>
-            <p className='workexperiencedetails'>
+            
+            <p className='workexperiencedetails' style={{display: 'flex', gap: '10px'}}>
+                <img src={testdome} width={'48px'} height="48px" ></img>
+                <span> 
              PHP – TestDome (Top 10%)
              <br/>View online: <a target='_blank' href='https://app.testdome.com/cert/8bb37ae534ec40cd9fa2178999adecfb'>cert/8bb37ae534ec40cd9fa2178999adecfb</a>
+            </span>
             </p>
             </div>
-
+            </div>
+            <div style={{textAlign: 'center'}}>
             <h3 className='workexperienceheaders'>LinkedIn JavaScript Certification: </h3>
+            </div>
+            <div style={{textAlign: 'center'}}>
             <img src={linkedinbadge} width={'266.88px'} height="362.88px" ></img>
+            </div>
             </div>
         </div>
     </div>

@@ -4,10 +4,11 @@ import Header from '../../components/header/header.component';
 const HomeBodyMessageCSS = {
     fontStyle: 'Italic', 
     color:'black', 
-    textAlign:'center', 
+    textAlign:'left', 
     borderRadius: '8px',
     fontSize: '20px',
-    lineHeight: '30px'
+    lineHeight: '30px',
+    padding: '30px',
 }
 const MainDivCSS = {
     width: '100%', 
@@ -15,9 +16,11 @@ const MainDivCSS = {
 const NestedDivCSS = {
     height:'100%', 
     paddingLeft: '15px', 
+    display: 'flex',
+    justifyContent: 'center'
 };
 const astyles = {
-    textDecoration: 'none'
+    textDecoration: 'none',
 };
 const HelpPage = () => (<>
     <div className='home' >

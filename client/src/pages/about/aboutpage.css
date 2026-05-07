@@ -1,13 +1,63 @@
-.home {
-    background-image:url("../../assets/homepagever.jpg");
+.homess {
+    background-image:url("../../assets/about.jpg");
     background-size: cover;
-    width: 100vw;
-    height: 100vh;
+    /* width: 100vw;
+    height: 100vh; */
     overflow-x: hidden;
 }
-
-@media only screen and (max-width: 500px) {
-
+.homebodymessagecss{
+    color:black; 
+    padding: 20px;
+    font-size: 18px;
+    letter-spacing: .5px;
+    line-height: 35px;
+    font-family: "Times New Roman", Times, serif;
+    background-color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-block-start: 0;
+    height: auto;
+}
+.accomplishmentscss{
+    font-family: "Times New Roman", Times, serif;
+    background-color:white;
+    border-radius: 5px;
+    line-height: 30px;
+    padding: 20px;
+}
+.nesteddivcss {
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+.captionstylecss { 
+  font-family:Snell Roundhand, cursive; 
+  font-weight:bold; 
+  font-style: italic; 
+  color: red; 
+  text-align:center; 
+  background-color:white;
+}
+.imagestylecss{ 
+  vertical-align: middle; 
+  border: 5px solid #FFFFFF;
+  filter: grayscale(25%);
+}
+.firstsection{
+    margin-top: 20px;
+    display: flex;
+    align-items: start;
+    gap: 20px;
+}
+.workexperiencedetails {
+    background-color:white;
+    border-radius: 5px;
+    margin-block-start: 0;
+    padding: 20px;
+}
+@media only screen and (min-width: 1390px) {
+.homebodymessagecss{
+    height: 224.8px;
+}
 }
 .workexperience {
     display: flex;
@@ -24,6 +74,13 @@
 }
 .workexperienceheaders{
     font-family: 'Verdana, sans-serif'; 
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+.workexperience {
+   
 }
 .fix {
     margin-top: 10px;
@@ -32,14 +89,19 @@
     padding-top: 1px;
     padding-left: 100px;
     padding-right: 100px;
-    background: #dee2e6;
+    /* background: #dee2e6; */
+    
 }
-@media only screen and (max-width: 717px) {
+@media only screen and (max-width: 992px) {
     .MainDivCSS {
     padding-top: 1px;
     padding-left: 25px;
     padding-right: 25px;
-    background: #dee2e6;
+}
+
+.firstsection{
+    flex-direction: column;
+    align-items: center;
 }
   }
 
@@ -48,7 +110,6 @@
     padding-top: 1px;
     padding-left: 10px;
     padding-right: 10px;
-    background: #dee2e6;
 }
   }
   .çenterimage{

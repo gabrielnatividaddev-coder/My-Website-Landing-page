@@ -1,9 +1,14 @@
 .homes {
-    background-image:url("../../assets/back.jpg");
+    /* background-image:url("../../assets/back.jpg");
     background-size: cover;
     width: 100vw;
     height: 100vh;
-    overflow-x: hidden;
+    */
+    overflow-x: hidden; 
+    background-image: linear-gradient(90deg,rgba(26, 79, 87, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
 }
 .github{
     height: 25px;

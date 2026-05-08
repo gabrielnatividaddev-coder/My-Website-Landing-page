@@ -37,14 +37,14 @@ const HelpPage = () => (<>
                <a style={astyles} href ={"https://github.com/gabrielnatividaddev-coder/React-Website-Sidebar-2"}>https://github.com/gabrielnatividaddev-coder/React-Website-Sidebar-2</a><br/>
                <a style={astyles} href ={"https://github.com/gabrielnatividaddev-coder/React-Website-Header"}>https://github.com/gabrielnatividaddev-coder/React-Website-Header</a> <br/>
                <a style={astyles} href ={"https://github.com/gabrielnatividaddev-coder/React-Website-Header-2"}>https://github.com/gabrielnatividaddev-coder/React-Website-Header-2</a> <br/>     
-               <a style={astyles} href={"https://bmi-calculator-website-9491fd7ea394.herokuapp.com/"}> https://bmi-calculator-website-9491fd7ea394.herokuapp.com/ </a> <br/>
-               <a style={astyles} href={"https://boxing-news-09ce3e637120.herokuapp.com/"}> https://boxing-news-09ce3e637120.herokuapp.com/ </a> <br/>
-               <a style={astyles} href={"https://calculator-master-79ac6e52ed8a.herokuapp.com/"}> https://calculator-master-79ac6e52ed8a.herokuapp.com/ </a> <br/>
-               <a style={astyles} href={"https://react-canvas-ba3ef7e3cbe6.herokuapp.com/"}> https://react-canvas-ba3ef7e3cbe6.herokuapp.com/ </a> <br/>
-               <a style={astyles} href={"https://react-sidebar-c9b48d6c91e3.herokuapp.com/"}> https://react-sidebar-c9b48d6c91e3.herokuapp.com/ </a> <br/>
-               <a style={astyles} href={"https://react-sidebar2-d796912b03f7.herokuapp.com/"}> https://react-sidebar2-d796912b03f7.herokuapp.com/</a> <br/>
-               <a style={astyles} href={"https://react-website-header-a782a166ef6d.herokuapp.com/"}> https://react-website-header-a782a166ef6d.herokuapp.com/ </a> <br/>
-               <a style={astyles} href={"https://react-website-header2-7aa1cc753cbd.herokuapp.com/"}> https://react-website-header2-7aa1cc753cbd.herokuapp.com/ </a> <br/>
+               <a style={astyles} href={"https://react-website-header-cc5159c0344a.herokuapp.com/"}> https://react-website-header-cc5159c0344a.herokuapp.com/</a> <br/>
+               <a style={astyles} href={"https://react-website-header2-2c6fb889edbb.herokuapp.com/"}> https://react-website-header2-2c6fb889edbb.herokuapp.com/ </a> <br/>
+               <a style={astyles} href={"https://react-sidebar-ad02e08797f2.herokuapp.com/"}>https://react-sidebar-ad02e08797f2.herokuapp.com/ </a> <br/>
+               <a style={astyles} href={"https://react-sidebar2-5591f6bc423f.herokuapp.com/"}> https://react-sidebar2-5591f6bc423f.herokuapp.com/ </a> <br/>
+               <a style={astyles} href={"https://boxing-news-0884a743b9df.herokuapp.com/"}> https://boxing-news-0884a743b9df.herokuapp.com/ </a> <br/>
+               <a style={astyles} href={"https://react-canvas-8f6053b3095b.herokuapp.com/"}> https://react-canvas-8f6053b3095b.herokuapp.com/</a> <br/>
+               <a style={astyles} href={"https://bmi-calculator-website-eb3987f1ae96.herokuapp.com/"}> https://bmi-calculator-website-eb3987f1ae96.herokuapp.com/ </a> <br/>
+               <a style={astyles} href={"https://calculator-master-ae952e30da53.herokuapp.com/"}> https://calculator-master-ae952e30da53.herokuapp.com/ </a> <br/>
                <a style={astyles} href={'https://newsapi.org/'} >https://newsapi.org/</a><br/>
                <a style={astyles} href={"https://tabler.io/icons"}> https://tabler.io/icons </a> <br/>
                <a style={astyles} href={"https://styled-components.com/"}> https://styled-components.com/ </a> <br/>

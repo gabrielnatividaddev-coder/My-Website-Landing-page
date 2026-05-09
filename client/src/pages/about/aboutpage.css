@@ -8,7 +8,7 @@
 .homebodymessagecss{
     color:black; 
     padding: 20px;
-    font-size: 17px;
+    /* font-size: 17px; */
     letter-spacing: .5px;
     line-height: 35px;
     font-family: "Times New Roman", Times, serif;
@@ -45,7 +45,8 @@
 .firstsection{
     margin-top: 20px;
     display: flex;
-    align-items: start;
+    /* align-items: start; */
+    flex-direction: column;
     gap: 20px;
 }
 .workexperiencedetails {
@@ -69,7 +70,7 @@
   }
 @media only screen and (min-width: 1390px) {
 .homebodymessagecss{
-    height: 224.8px;
+    /* height: 224.8px; */
 }
 }
 

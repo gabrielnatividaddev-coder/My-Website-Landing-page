@@ -25,10 +25,10 @@ const astyles = {
 const HelpPage = () => (<>
     <div className='home' >
         <Header showPicture={true}/>
-        <div style={MainDivCSS}>
+        <div className='help' style={MainDivCSS}>
             <div style={NestedDivCSS}>
 
-            <p style={HomeBodyMessageCSS}>
+            <p className='reducep' style={HomeBodyMessageCSS}>
                 <a style={astyles} href ={"https://github.com/gabrielnatividaddev-coder/calculator"}>https://github.com/gabrielnatividaddev-coder/calculator</a> <br/>
                <a style={astyles} href ={"https://github.com/gabrielnatividaddev-coder/boxing-news-website"}>https://github.com/gabrielnatividaddev-coder/boxing-news-website</a><br/>
                <a style={astyles} href ={"https://github.com/gabrielnatividaddev-coder/BMI-Calculator"}>https://github.com/gabrielnatividaddev-coder/BMI-Calculator</a> <br/>

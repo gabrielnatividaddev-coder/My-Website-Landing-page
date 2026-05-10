@@ -17,7 +17,7 @@ const AboutPage = () => (
                 <div className='firstsection'>
                 <div className='çenterimage'>
                     <div>
-                    <img width="180" src={JMD} className='imagestylecss'></img>
+                    <img width="170" src={JMD} className='imagestylecss'></img>
                     <figcaption className='captionstylecss'>Gabriel Natividad</figcaption>
                 </div>
                 </div>

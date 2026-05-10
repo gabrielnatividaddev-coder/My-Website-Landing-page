@@ -26,5 +26,5 @@ export const NavItemsMenu = styled.div`
 export const NavItems = styled(Link)`
   padding: 10px 15px;
   cursor: pointer;
-  color: white;
+  // color: white;
 `;

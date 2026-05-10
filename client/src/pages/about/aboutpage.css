@@ -126,3 +126,9 @@
     display: flex;
     justify-content: center;
   }
+
+  @media only screen and (max-width: 768px) {
+.MainDivCSS {
+   margin-top: -54px;
+}
+  }

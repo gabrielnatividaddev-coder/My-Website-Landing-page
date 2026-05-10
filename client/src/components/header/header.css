@@ -56,14 +56,14 @@
 
   @media only screen and (max-width: 768px) {
    .rightsection {
-         width: 150px;
+         width: 140px;
     }
       .setimage {
-      width: 150px;
+      width: 140px;
     }
     .setimagecaption {
-        font-size: 10px;
-        width: 150px;
+        font-size: 12px;
+        width: 140px;
     }
   }
 @media only screen and (max-width: 559px) {

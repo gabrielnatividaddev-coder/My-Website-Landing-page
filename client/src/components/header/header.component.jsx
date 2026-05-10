@@ -1,7 +1,7 @@
 import React from 'react';
 import JBDM from  '../../assets/javier.png';
 import './header.css';
-import { Button, Burger, Group, Drawer, ScrollArea, Divider, UnstyledButton,Center, Box, Collapse, Anchor } from '@mantine/core';
+import { Burger, Group, Drawer, ScrollArea, Divider } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import { Link, useLocation } from 'react-router-dom';
 const ImageStyleCSS = { 

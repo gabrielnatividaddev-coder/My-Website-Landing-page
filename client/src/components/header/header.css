@@ -23,7 +23,7 @@
     text-decoration: none;
     color: black;
     }
-    .hovereffect:hover , .hovereffect.active {
+    .hovereffect:hover, .hovereffect:active {
         background-color: lightgray;
     }
 

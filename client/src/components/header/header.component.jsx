@@ -1,9 +1,9 @@
 import React from 'react';
 import JBDM from  '../../assets/javier.png';
 import './header.css';
-import { Button, Burger, Group, Drawer, ScrollArea, Divider, UnstyledButton,Center, Box, Collapse } from '@mantine/core';
+import { Button, Burger, Group, Drawer, ScrollArea, Divider, UnstyledButton,Center, Box, Collapse, Anchor } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 const ImageStyleCSS = { 
   marginTop:'20px',
   verticalAlign: 'middle', 
@@ -20,19 +20,16 @@ const CaptionStyleCSS = {
 };
 const Header = ({showPicture}) => {
   const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] = useDisclosure(false);
- return <>
-                   <Burger
+  const {pathname} = useLocation();
+ return <>    <Burger
                   opened={drawerOpened}
                   onClick={toggleDrawer}
                   hiddenFrom="sm"
                   aria-label="Toggle navigation"
                   ml={'20px'}
                   mt={'20px'}
-
-              /> 
-              
+                /> 
               <div className='header-navigator'>
-           
               <Group className='fouritems' visibleFrom="sm">
                   <div className='navitemsmenu' style={{zIndex: 123}}>
                   <Link className='navitems itemsReact' to='/'>HOME</Link>
@@ -61,10 +58,10 @@ const Header = ({showPicture}) => {
             <ScrollArea h="calc(100vh - 80px" mx="-md">
                 <Divider my="sm"/>
                       <Group className='divideritems'>
-                      <Link className='itemdivider hovereffect' to='/'>HOME</Link>
-                      <Link className='itemdivider hovereffect' to='/about'>ABOUT</Link>
-                      <Link className='itemdivider hovereffect' to='/services'>MY APPLICATIONS</Link>
-                      <Link className='itemdivider hovereffect' to='/help'>LINKS</Link>
+                      <Link className='itemdivider hovereffect' to='/' style={{backgroundColor: pathname ==='/' ? 'lightgray': 'white'}}>HOME</Link>
+                      <Link className='itemdivider hovereffect' to='/about' style={{backgroundColor: pathname ==='/about' ? 'lightgray': 'white'}}>ABOUT</Link>
+                      <Link className='itemdivider hovereffect' to='/services' style={{backgroundColor: pathname ==='/services' ? 'lightgray': 'white'}}>MY APPLICATIONS</Link>
+                      <Link className='itemdivider hovereffect' to='/help' style={{backgroundColor: pathname ==='/help' ? 'lightgray': 'white'}}>LINKS</Link>
                     </Group>
                 <Divider my="sm" />
             </ScrollArea>

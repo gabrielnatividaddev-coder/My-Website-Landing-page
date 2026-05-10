@@ -26,10 +26,9 @@ const Header = ({showPicture}) => {
                   onClick={toggleDrawer}
                   hiddenFrom="sm"
                   aria-label="Toggle navigation"
-                  name='ba'
-                  // mr={'20px'}
                   ml={'20px'}
                   mt={'20px'}
+
               /> 
               
               <div className='header-navigator'>

@@ -28,6 +28,7 @@ const Header = ({showPicture}) => {
                   aria-label="Toggle navigation"
                   ml={'20px'}
                   mt={'20px'}
+                  color='white'
                 /> 
               <div className='header-navigator'>
               <Group className='fouritems' visibleFrom="sm">

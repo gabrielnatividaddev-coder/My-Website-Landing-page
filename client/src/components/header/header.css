@@ -3,7 +3,7 @@
         white-space: nowrap;
     }
 .rightsection { 
-          padding-top: 35px;
+          /* padding-top: 35px; */
           width: 200px;
     }
     .divideritems {
@@ -23,7 +23,7 @@
     text-decoration: none;
     color: black;
     }
-    .hovereffect:hover, .hovereffect:active {
+.hovereffect:hover, .hovereffect:active {
         background-color: lightgray;
     }
 

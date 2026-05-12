@@ -130,5 +130,16 @@
   @media only screen and (max-width: 768px) {
 .MainDivCSS {
    margin-top: -54px;
+
 }
+.homebodymessagecss {
+    font-size: 15px;
+}
+.accomplishmentscss{
+    font-size: 15px;
+}
+.workexperiencedetails{
+    font-size: 15px;
+}
+
   }

@@ -53,8 +53,17 @@
   margin: 0 auto;
   /* display: block; */
   }
+.fouritems {display: block;}
+.burger {display: none;}
+.drawer {display: none;}
 
   @media only screen and (max-width: 768px) {
+    .drawer{
+      display: block;
+    }
+    .burger{
+      display: block;
+    }
    .rightsection {
          width: 140px;
          margin-top: 0;
@@ -66,6 +75,7 @@
         font-size: 12px;
         width: 140px;
     }
+    .fouritems {display: none;}
   }
 @media only screen and (max-width: 559px) {
 

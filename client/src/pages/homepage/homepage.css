@@ -24,6 +24,26 @@
    margin-left: 10%;
    margin-top: 100px;
 }
+@media only screen and (min-width: 1800px) {
+    .support {
+        margin-left: 13%;
+    }
+  }
+  @media only screen and (min-width: 2200px) {
+    .support {
+        margin-left: 16%;
+    }
+  }
+   @media only screen and (min-width: 3000px) {
+    .support {
+        margin-left: 19%;
+    }
+  }
+     @media only screen and (min-width: 4100px) {
+    .support {
+        margin-left: 21%;
+    }
+  }
 .paragraph {
     font-style: 'Italic';
     color:green;

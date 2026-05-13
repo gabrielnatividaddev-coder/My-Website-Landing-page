@@ -24,14 +24,14 @@ const Header = ({showPicture}) => {
  return <>    <Burger
                   opened={drawerOpened}
                   onClick={toggleDrawer}
-                  hiddenFrom="sm"
                   aria-label="Toggle navigation"
                   ml={'20px'}
                   mt={'20px'}
                   color='white'
+                  className='burger'
                 /> 
               <div className='header-navigator'>
-              <Group className='fouritems' visibleFrom="sm">
+              <Group className='fouritems'>
                   <div className='navitemsmenu' style={{zIndex: 123}}>
                   <Link className='navitems itemsReact' to='/'>HOME</Link>
                   <Link className='navitems itemsReact' to='/about'>ABOUT</Link>
@@ -53,7 +53,7 @@ const Header = ({showPicture}) => {
             size="100%"
             padding="md"
             title="Navigation"
-            hiddenFrom="sm"
+            className='drawer'
             zIndex={1000000}
           >
             <ScrollArea h="calc(100vh - 80px" mx="-md">

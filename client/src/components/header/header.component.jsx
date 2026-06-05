@@ -50,13 +50,13 @@ const Header = ({showPicture}) => {
         <Drawer
             opened={drawerOpened}
             onClose={closeDrawer}
-            size="60%"
+            size="100%"
             padding="md"
             title="Navigation"
             className='drawer'
             zIndex={1000000}
           >
-            <ScrollArea mx="-md" style={{overflow:'hidden'}}>
+            <ScrollArea mx="-md">
                 <Divider my="sm"/>
                       <Group className='divideritems'>
                       <Link className='itemdivider hovereffect' to='/' style={{backgroundColor: pathname ==='/' ? 'lightgray': 'white'}}>HOME</Link>

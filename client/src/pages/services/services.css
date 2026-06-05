@@ -47,7 +47,7 @@ a {
         -moz-osx-font-smoothing: grayscale;
         backface-visibility: hidden;
         transform: translateZ(0);
-        transition: transform 0.25s ease-out;
+        transition: all 0.25s ease-out;
         word-break: break-all;
         color: black;    
 }

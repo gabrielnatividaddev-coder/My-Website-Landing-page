@@ -50,7 +50,7 @@ const Header = ({showPicture}) => {
         <Drawer
             opened={drawerOpened}
             onClose={closeDrawer}
-            size="100%"
+            size="50%"
             padding="md"
             title="Navigation"
             className='drawer'

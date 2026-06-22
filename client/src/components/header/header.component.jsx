@@ -44,9 +44,7 @@ const Header = ({showPicture}) => {
                 <img width="200" className='setimage' src={JBDM} style={ImageStyleCSS} ></img>
                 <figcaption className='setimagecaption' style={CaptionStyleCSS} >Gabriel Natividad</figcaption>
                 </Link> }
-                </div>
-              
-  </div>  
+                </div> </div>  
         <Drawer
             opened={drawerOpened}
             onClose={closeDrawer}
